@@ -4,10 +4,8 @@ function Hovedside() {
   return (
     <div className="mt-2 flex justify-center">
       <div>
-        <h1 className="text-[64px] text-center text-gray-800 font-semibold">
-          HVLTopia
-        </h1>
-        <div className="mt-8 p-4 max-w-xl justify-cen">
+        <h1 className="text-[64px] text-center  font-semibold">HVLTopia</h1>
+        <div className=" p-4 max-w-xl justify-cen">
           <p className="mb-8">
             HVLTopia er mer enn bare en by; det er en levende visjon for en
             bærekraftig fremtid. Byen er designet med naturen i sentrum, der
