@@ -1,12 +1,14 @@
 import Image from "next/image";
 import { Navbar } from "./Navbar";
-import Hero from "./Hero";
+import Hovedside from "./Hovedside";
+import FremsideBilde from "./FremsideBilde";
 
 export default function Home() {
   return (
-    <main className="">
+    <div>
       <Navbar />
-      <Hero />
-    </main>
+      <FremsideBilde />
+      <Hovedside />
+    </div>
   );
 }

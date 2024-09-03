@@ -1,18 +1,13 @@
 import React from "react";
 
-function Hero() {
+function Hovedside() {
   return (
-    <div>
-      <div className="row mt-14"></div>
+    <div className="mt-2 flex justify-center">
       <div>
-        <h1 className="text-[64px] flex text-center justify-center text-gray-800 font-semibold">
+        <h1 className="text-[64px] text-center text-gray-800 font-semibold">
           HVLTopia
         </h1>
-        <p className="justify-center flex">Velkommen til vår Miljøby</p>
-        <div className="fill flex justify-center">
-          <img src="/miljoby.jpg" alt="Miljøby" />
-        </div>
-        <div className="px-48 mt-8 mb-9">
+        <div className="mt-8 p-4 max-w-xl justify-cen">
           <p className="mb-8">
             HVLTopia er mer enn bare en by; det er en levende visjon for en
             bærekraftig fremtid. Byen er designet med naturen i sentrum, der
@@ -46,4 +41,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Hovedside;
