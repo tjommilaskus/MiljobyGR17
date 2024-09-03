@@ -6,8 +6,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <FremsideBilde />
-      <Hovedside />
+      <h1>Om Prosjektet</h1>
     </div>
   );
 }
